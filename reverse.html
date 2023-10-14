@@ -1,0 +1,16 @@
+<html>
+    <head>
+   </head>
+    <body>
+<script>
+var str="This is a sunny day";
+var reverseEachWord=reverseWord(str," ");
+console.log(reverseEachWord);
+var output=reverseWord(reverseEachWord," ");
+console.log(output);
+function reverseWord(string,separator){
+  return string.split(separator).reverse().join(separator);
+}
+</script>
+</body>
+</html>

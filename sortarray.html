@@ -1,0 +1,22 @@
+<html>
+    <head>
+    </head>
+        <body>
+            <script>
+                var array=[20,90,10,9,80,100];
+                var temp=0;
+                    for(var i=0;i<array.length;i++){
+                        for(var j=i+1;j<array.length;j++){
+                            if(array[i]<array[j]){
+                                temp=array[i];
+                                array[i]=array[j];
+                                array[j]=temp;
+                            }
+                        }
+                    }
+                    for(i=0;i<array.length;i++){
+                    console.log(array[i]);
+                }
+            </script>
+        </body>
+</html>
